@@ -82,6 +82,7 @@ Kubernetes: `>=1.26.0-0`
 | zigbee2mqtt.availability.active.timeout | int | `10` | Time after which an active device will be marked as offline in minutes (default = 10 minutes) |
 | zigbee2mqtt.availability.passive.timeout | int | `1500` | Time after which a passive device will be marked as offline in minutes (default = 1500 minutes aka 25 hours) |
 | zigbee2mqtt.blocklist | list | `[]` | Locking devices from the network ( ieeeAddr ) |
+| zigbee2mqtt.device_options | object | `{}` | |
 | zigbee2mqtt.external_converters | list | `[]` |  |
 | zigbee2mqtt.frontend.auth_token | string | `nil` | Optional, enables authentication, disabled by default, cleartext (no hashing required) |
 | zigbee2mqtt.frontend.enabled | bool | `true` | If the front end should be enabled, true by default. Pod health checks are based on this, so disabling it will cause an error loop unless health checks are updated. |

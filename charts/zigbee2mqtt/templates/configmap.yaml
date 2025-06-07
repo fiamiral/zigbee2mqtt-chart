@@ -42,5 +42,7 @@ data:
       {{- .Values.zigbee2mqtt.serial | toYaml | nindent 6}}
     frontend:
       {{- .Values.zigbee2mqtt.frontend | toYaml | nindent 6}}
+    device_options:
+      {{- .Values.zigbee2mqtt.device_options | toYaml | nindent 6}}
     advanced:
       {{- .Values.zigbee2mqtt.advanced | toYaml | nindent 6}}

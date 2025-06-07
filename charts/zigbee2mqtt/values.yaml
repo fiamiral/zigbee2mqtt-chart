@@ -185,6 +185,7 @@ zigbee2mqtt:
     auth_token: null
     # -- Optional, url on which the frontend can be reached, currently only used for the Home Assistant device configuration page
     url: null
+  device_options: {}
   advanced:
     # -- Optional: ZigBee pan ID (default: shown below)
     # Setting pan_id: GENERATE will make Zigbee2MQTT generate a new panID on next startup
